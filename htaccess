@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://www.mybartenders.co.uk/$ [L,R=301]
